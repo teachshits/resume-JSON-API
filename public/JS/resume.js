@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$.getJSON('/resume',function(data){
+	$.getJSON('/api/resume',function(data){
 		if(data){
 			var animateSpeed = 1500;
 			
