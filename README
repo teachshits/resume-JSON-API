@@ -1,6 +1,6 @@
 Built in Ruby v 1.9.3 running on OSX 10.6.8
 
-Using 2 gems, Sinatra and json.
+Using 3 gems, Sinatra and json plus rack-test for testing.
 
 Test suite is in test.rb.
 
