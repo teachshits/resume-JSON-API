@@ -1,0 +1,58 @@
+* {
+	font-family: Helvetica,Arial,sans-serif;
+	list-style-type:none;
+}
+
+a:link,a:visited,a:hover,a:active {
+	color: black;
+}
+
+h1, h2, h3 {
+	font-family: 'Pompiere';
+	text-transform: uppercase;
+	font-weight:normal;
+}
+
+h3 {
+	font-size: 30px;
+	margin-bottom: 5px;
+}
+
+#name {
+	text-align: center;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 75px;
+}
+
+#contact {
+	text-align: center;
+	width:100%;
+	min-height:100px;
+}
+
+#skills {
+	float: right;
+	width:20%;
+	height: 1000px;
+	border-left: 3px solid black;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+#jobs {
+	
+}
+
+#skills-list, #education-list, #jobs-list{
+	display: none;
+}
+
+#education-list li, #jobs-list li{
+	padding-bottom: 10px;
+}
+
+#education-list td, #jobs-list td{
+	width:400px;
+}
