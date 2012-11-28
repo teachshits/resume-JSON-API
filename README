@@ -2,6 +2,8 @@ Built in Ruby v 1.9.3 running on OSX 10.6.8
 
 Using 2 gems, Sinatra and json.
 
+Test suite is in test.rb.
+
 Available at http://evening-beach-7507.herokuapp.com/
 
 API is accessed via ./api/ and returns JSON
