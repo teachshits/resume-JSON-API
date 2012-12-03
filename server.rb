@@ -14,22 +14,22 @@ get %r{/api/resume\/?\z} do
   $RESUME.to_json
 end
 
-get '/api/resume/contact' do
+get %r{/api/resume/contact\/?\z} do
   content_type :json
   $RESUME["contact"].to_json
 end
 
-get '/api/resume/education' do
+get %r{/api/resume/education\/?\z} do
   content_type :json
   $RESUME["education"].to_json
 end
 
-get '/api/resume/jobs' do
+get %r{/api/resume/jobs\/?\z} do
   content_type :json
   $RESUME["jobs"].to_json
 end
 
-get '/api/resume/skills' do
+get %r{/api/resume/skills\/?\z} do
   content_type :json
   $RESUME["skills"].to_json
 end

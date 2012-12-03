@@ -7,15 +7,15 @@ Test suite is in test.rb.
 Available at http://evening-beach-7507.herokuapp.com/
 
 API is accessed via ./api/ and returns JSON
-./api/resume/contact 
+./api/resume/contact/
 	returns a contact information object
-./api/resume/education
+./api/resume/education/
 	returns an array of education objects
-./api/resume/jobs
+./api/resume/jobs/
 	returns an array of employer objects
 ./api/resume/skills/
 	returns an array of skill strings
-./api/resume
+./api/resume/
 	returns an object containing all of the above calls
 	
 . or ./index.html
